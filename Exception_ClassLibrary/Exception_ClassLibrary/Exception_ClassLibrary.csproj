@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="ConfigHelper.cs" />
     <Compile Include="EmailHelper.cs" />
+    <Compile Include="LogHelper.cs" />
     <Compile Include="StringHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

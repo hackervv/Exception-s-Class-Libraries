@@ -20,11 +20,11 @@ namespace Exception_ClassLibrary
         }
 
         [Test]
-        public void TestValidFile2()
+        public void TestMail()
         {
-            StringHelper cs = new StringHelper();
-            bool result = cs.ValidFileName("demo.foo");
-            Assert.AreEqual(true, result);
+            EmailHelper em = new EmailHelper();
+            List<string> list = new List<string> { };
+            EmailHelper.SendMail("461803297@qq.com", "461803297@qq.com", "461803297@qq.com","单元测试","单元测试",true,list);
         }
     }
 }
